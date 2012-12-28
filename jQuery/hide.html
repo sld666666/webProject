@@ -1,0 +1,45 @@
+<html>
+<head>
+   <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".red").click(function(){
+                alert("1111");
+            });
+
+            $(".flip").click(function(){
+                $(".panel").slideToggle(1000, function(){
+                    alert("The paragraph is now hidden")
+                });
+            });
+        });
+    </script>
+
+    <style type="text/css">
+        div.panel
+        {
+            margin:0px;
+            padding:5px;
+            text-align:center;
+            background:#e5eecc;
+            border:solid 1px #c3c3c3;
+        }
+        div.panel
+        {
+            height:120px;
+            display:none;
+        }
+
+    </style>
+</head>
+
+<body>
+<button class="red">Click me</button>
+<div class="panel">
+    <p> xixixixixixixi</p>
+    <p>hahahahahaha</p>
+</div>
+
+<p class="flip">请点击这里</p>
+</body>
+</html>

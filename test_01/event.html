@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function sayHello(){
+            alert("hello world");
+        }
+        function over(){
+            alert("mouse over");
+        }
+        function out(){
+            alert("mose out");
+        }
+    </script>
+    <title> event</title>
+</head>
+
+<body>
+<div style="color: #00ff00" onmouseover="over()" onmouseout="out()">
+    <h1>this is inside the divison</h1>
+</div>
+<input type = "button" onclick="sayHello()" value="say hello"/>
+</body>
+</html>

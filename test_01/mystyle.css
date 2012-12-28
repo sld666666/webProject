@@ -1,0 +1,11 @@
+
+span.highlight{
+    background-color: yellow;
+}
+
+body{
+    background-image: url("image/112610637.jpg");
+    background-repeat: repeat-y;
+
+    color: red;
+}
